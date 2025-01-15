@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  background-color: #0f3a6b;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+footer {
+  /* background-color: #f1f1f1;
+  padding: 10px 0;
+  text-align: center; */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0c233e;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
